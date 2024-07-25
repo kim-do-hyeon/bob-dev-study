@@ -11,6 +11,7 @@ bool solution(int x) {
         x = x/10;
     }
     sum = sum + x;
+    // x를 x의 각 자리수의 합으로 나눴을 때, 나누어 떨어지면 하샤드 수 
     return (origin%sum) == 0;
 
 }
